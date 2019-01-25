@@ -1,0 +1,235 @@
+.body {
+  /* font: 62.5%/1.3em Helvetica, sans-serif; */
+  /* width: 90.3%; */
+  /* margin: 10px auto; */
+  /* max-width: 960px; */
+}
+
+.message {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #cdcdcd;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table tr {
+  width: 100%;
+}
+
+table td {
+  border: 1px solid #cdcdcd;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  vertical-align: top;
+}
+
+table td div {
+  position: relative;
+}
+
+td.light {
+  background: #f4f4f4;
+}
+
+td input {
+  padding: 2px 0 0 0;
+  border: transparent;
+  text-align: center;
+  font-size: .9em;
+  color: #666;
+  background: transparent;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 0;
+  width: 100%;
+  height: 10px;
+  *left: -2px;
+  *top: -2px;
+}
+
+td input:focus {
+  background-color: #fff;
+  outline-color: #34aeff;
+  outline-width: thick;
+}
+
+td span {
+  color: #444;
+  font-size: .31em;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+}
+
+input.done {
+  font-weight: bold;
+  color: #34aeff;
+}
+
+.active, .clues-active {
+  background-color: #ddd;
+}
+
+.clue-done {
+  color: #999;
+  text-decoration: line-through;
+}
+
+#puzzle-wrapper {
+  float: left;
+  width: 54%;
+  margin-right: 3%;
+}
+
+#puzzle-clues {
+  float: left;
+  width: 40%;
+}
+
+#puzzle-clues li {
+  font-size: 0.6em;
+  margin: 0.3em;
+  line-height: 1.5em;
+  cursor: pointer;
+}
+
+#puzzle-clues ul {
+  padding: 0;
+}
+
+#puzzle-clues li {
+  list-style: none;
+  padding-left: 2em;
+  clear: both;
+}
+
+#puzzle-clues li .position {
+  position: absolute;
+  margin-left: -2em;
+  font-weight: bold;
+}
+
+#puzzle-clues li .position:after {
+  content: ".";
+}
+
+@media (max-width:700px) {
+  #puzzle-wrapper, #puzzle-clues {
+    float: none;
+    width: auto;
+    margin-right: 0;
+  }
+  #puzzle-wrapper {
+    margin: 0 30px;
+  }
+  #puzzle-clues div {
+    padding: 0;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width:480px) {
+  #puzzle-clues div {
+    float: none;
+    width: auto;
+  }
+  #puzzle-wrapper {
+    margin: 0;
+  }
+}
+
+#puzzle-clues .words {
+  font-size: .9em;
+  color: #888;
+  float: right;
+  margin-left: .5em;
+}
+
+/******************
+Primary theme color
+*******************/
+
+.social__container, .search__container, .search-panel .search-panel__text, .navigation > li.current-menu-item > a, .navigation > li:hover > a, .navigation > li.current-menu-ancestor > a, .widget-contact__title, .navigation .sub-menu > li > a:hover, .error .primary-color {
+	color: #40454a}
+
+.social .social__dropdown, .navbar-toggle, .widget_search .search-submit {
+	background: #40454a}
+
+::selection {
+	background: #40454a}
+
+.wpcf7-submit, .navigation > li > a:after, .btn-primary, #submitWPComment {
+	background: linear-gradient(to bottom, #40454a, #3a3e43)
+}
+
+blockquote, .wpcf7-submit, .btn-primary, .navbar-toggle, #submitWPComment {
+	border-color: #40454a}
+
+.search__container:hover, .social__container:hover {
+	color: #3a3e43}
+
+@media (min-width: 992px) {
+	.navigation .sub-menu > li > a {
+		background: #40454a	}
+}
+
+.wpcf7-submit:hover, .btn-primary:hover, .social .social__dropdown li a:hover, #submitWPComment:hover {
+	background: #3a3e43}
+
+@media (min-width: 992px) {
+	.navigation .sub-menu > li > a:hover {
+		background: #3a3e43	}
+}
+
+.wpcf7-submit:hover, .navigation .sub-menu > li > a, .navigation .sub-menu, .btn-primary:hover, .social .social__dropdown li .social__container, #submitWPComment:hover {
+	border-color: #3a3e43}
+
+.format-link { background: -webkit-radial-gradient(50% 50%, circle closest-corner, #40454a 0%, #363b3f 100%); background: radial-gradient(circle closest-corner at 50% 50%, #40454a 0%, #363b3f 100%);}
+
+/******************
+Text color
+*******************/
+
+.post-content, .post-content--narrow, body .su-tabs-style-default .su-tabs-pane {
+	color: #222222}
+
+/******************
+Link color
+*******************/
+
+a, .menu li a, .pptwj .pptwj-tabs-wrap .tab-links li a.selected, .pptwj .pptwj-tabs-wrap .tab-links li a:hover, .pptwj .pptwj-tabs-wrap .boxes ul.tab-filter-list li a:hover, .pptwj .pptwj-tabs-wrap .boxes ul.tab-filter-list li a.selected, .pagination .prev, .pagination .next, .pagination__page-numbers .current, .latest-posts__meta-content a.latest-posts__meta-content-author-link {
+	color: #40454a}
+
+.widget_tag_cloud a, .tags a {
+	border-color: #40454a}
+
+a:hover, .menu li a:hover {
+	color: #363b3f}
+
+.widget_tag_cloud a:hover, .tags a:hover, .pptwj .pptwj-tabs-wrap .boxes ul.tab-filter-list li a.selected:after, .pptwj .pptwj-tabs-wrap .boxes ul.tab-filter-list li a:hover:after {
+	background-color: #40454a}
+
+/******************
+Headings dark
+*******************/
+h1, h1 a, .h1 a, .h2, h2, h2 a, .h2 a, h4, h4 a, .h4 a, h5, h5 a, .h5 a, .zem_rp_title {
+	color: #2f343b}
+
+/******************
+Navbar text color
+*******************/
+
+.navigation > li > a {
+	color: #666660}
+
+/* WP Customizer end */

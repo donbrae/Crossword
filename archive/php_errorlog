@@ -1,0 +1,1 @@
+[08-Sep-2018 06:42:36 CST6CDT] PHP Fatal error:  require_once(): Failed opening required 'includes/header.php' (include_path='.:/usr/local/php70/pear') in /home/disco474/public_html/makforrit.scot/crosswird/archive/index.php on line 2
